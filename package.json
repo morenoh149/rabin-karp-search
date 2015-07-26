@@ -1,0 +1,21 @@
+{
+  "name": "karp-rabin-search",
+  "version": "1.0.0",
+  "description": "A string searching algorithm for finding instances of a pattern in text",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "algorithm",
+    "search",
+    "string",
+    "search",
+    "plagarism"
+  ],
+  "author": "Harry Moreno",
+  "license": "MIT",
+  "dependencies": {
+    "number-theory": "^1.0.0"
+  }
+}
