@@ -1,6 +1,6 @@
 {
   "name": "karp-rabin-search",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A string searching algorithm for finding instances of a pattern in text",
   "main": "index.js",
   "scripts": {
