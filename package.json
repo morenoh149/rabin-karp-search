@@ -4,7 +4,7 @@
   "description": "A string searching algorithm for finding instances of a pattern in text",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node test.js"
   },
   "keywords": [
     "algorithm",
