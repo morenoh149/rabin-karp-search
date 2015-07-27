@@ -1,17 +1,21 @@
 {
   "name": "karp-rabin-search",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A string searching algorithm for finding instances of a pattern in text",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morenoh149/rabin-karp-search"
   },
   "keywords": [
     "algorithm",
     "search",
     "string",
     "search",
-    "plagarism"
+    "plagiarism"
   ],
   "author": "Harry Moreno",
   "license": "MIT",

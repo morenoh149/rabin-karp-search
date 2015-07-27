@@ -9,14 +9,10 @@ var search = require('./index.js').search
 function iterativeIndexOf(T, P, i) {
   if(!i) { i = 0 }
   var results = []
-  var verbose = {
-    matches: 0
-  }
 
   var matchIndex = T.indexOf(P)
   while(matchIndex !== -1) {
     results.push(matchIndex)
-    verbose.matches += 1
     matchIndex = T.indexOf(P, matchIndex + 1)
   }
   return results
@@ -26,7 +22,7 @@ function iterativeIndexOf(T, P, i) {
 // var T = 'abpattern b pattern'
 // var P = 'pattern'
 
-// test against words file
+// larger test - against words file
 var T = fs.readFileSync('/usr/share/dict/words', { encoding: 'utf8' })
 var P = 'zymotoxic\nzymurgy\nZyrenian\nZyrian\nZyryan\nzythem\nZythia\nzythum\nZyzomys\nZyzzogeton'
 // var P = 'moto'

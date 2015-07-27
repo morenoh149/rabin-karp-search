@@ -70,4 +70,3 @@ exports.search = function search(T, P) {
   }
   return result
 }
-
