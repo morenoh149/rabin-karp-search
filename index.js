@@ -47,10 +47,6 @@ exports.search = function search(T, P) {
   var patternHash = exports.precompute(P)
 
   var result = []
-  var verbose = {
-    hashHits: 0,
-    matches: 0
-  }
 
   // Iterate over T
   // T[i..(i+p-1)] -> T[(i+1)..(i+p)]
@@ -67,10 +63,8 @@ exports.search = function search(T, P) {
     substringHash = exports.rollingHash(T, i, p, substringHash, magnitudePrecompute)
     if(patternHash === substringHash) {
       substring = T.slice(i, i + p)
-      verbose.hashHits += 1
       if(substring === P) {
         result.push(i)
-        verbose.matches += 1
       }
     }
   }
