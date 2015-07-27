@@ -21,3 +21,6 @@ run `npm test`
 
 ## Dependencies
 https://github.com/rsandor/number-theory
+
+## License
+MIT
